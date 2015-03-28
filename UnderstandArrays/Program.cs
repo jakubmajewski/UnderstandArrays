@@ -10,6 +10,10 @@ namespace UnderstandArrays
     {
         static void Main(string[] args)
         {
+            SayNumber saynumber = new SayNumber();
+            saynumber.GiveMeXTimes();
+            saynumber.Count();
+            saynumber.Show();
         }
     }
 }
